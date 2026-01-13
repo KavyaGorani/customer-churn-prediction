@@ -33,3 +33,58 @@
 ### Most customers use paperless billing.
 
 ![PaperlessBilling](/assets/PaperlessBilling.png)
+
+
+# Data Preprocessing
+
+## The following steps were applied:
+
+### Dropped irrelevant columns such as customerID
+### Converted TotalCharges to numeric format
+### Handled missing values
+### Converted binary values (Yes/No) into 0 and 1
+### Converted “No internet service” into “No”
+### Applied one-hot encoding to multi-category features
+### Split the dataset into training and testing sets
+
+
+# Models Used
+## Logistic Regression
+### A simple and interpretable model used as the baseline.
+
+## Random Forest Classifier
+### A more complex ensemble model used for comparison.
+
+
+# Model Performance Comparison
+## Model	Accuracy	Precision (Churn)	Recall (Churn)
+## Logistic Regression	0.82	0.69	0.60
+## Random Forest	0.79	0.65	0.46
+
+
+# Final Model Selection
+
+## Although Random Forest is more complex, Logistic Regression performed better in detecting churned customers, especially in recall, which is crucial for customer retention.
+## Therefore, Logistic Regression was selected as the final model.
+
+
+# Business Insight
+## The model helps identify customers who are likely to churn so businesses can:
+### Offer targeted discounts
+### Improve customer service
+### Provide personalized plans
+### Reduce revenue loss
+
+
+# Tools and Technologies
+## Python
+## Pandas, NumPy
+## Matplotlib && Seaborn
+## Scikit-learn
+## Jupyter Notebook
+
+
+# Conclusion
+## This project demonstrates a complete data science workflow including data cleaning, exploratory data analysis, feature engineering, model training, evaluation, and business interpretation.
+
+## It shows how machine learning can be applied to solve a real-world business problem such as customer churn.
