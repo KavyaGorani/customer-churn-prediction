@@ -9,3 +9,27 @@
 ### Services used (internet, streaming, tech support, etc.)
 ### Account information (tenure, contract, billing, charges)
 ### Target variable: Churn (Yes / No)
+
+
+# Exploratory Data Analysis (EDA)
+## EDA was performed to understand patterns related to customer churn.
+## Key insights:
+### Customers with month-to-month contracts churn more & Customers with shorter tenure have higher churn.
+
+![Tenure](/assets/Tenure.png)
+
+### Higher monthly charges are associated with increased churn.
+
+![MonthlyCharges](/assets/MonthlyCharges.png)
+
+### Fiber optic users show higher churn compared to other services.
+
+![InternetService](/assets/InternetServices.png)
+
+### Electronic check users churn more than automatic payment users.
+
+![PaymentMethod](/assets/PaymentMethod.png)
+
+### Most customers use paperless billing.
+
+![PaperlessBilling](/assets/PaperlessBilling.png)
