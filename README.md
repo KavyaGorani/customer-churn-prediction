@@ -19,22 +19,22 @@ The dataset contains customer information including:
 Exploratory Data Analysis was performed to understand customer behavior and churn patterns.
 
 ### Contract vs Churn
-![Contract vs Churn](images/contract_vs_churn.png)
+![Contract vs Churn](assets/contract_vs_churn.png)
 
 ### Tenure vs Churn
-![Tenure vs Churn](images/tenure_vs_churn.png)
+![Tenure vs Churn](assets/tenure_vs_churn.png)
 
 ### Monthly Charges vs Churn
-![Monthly Charges vs Churn](images/monthlycharges_vs_churn.png)
+![Monthly Charges vs Churn](assets/monthlycharges_vs_churn.png)
 
 ### Payment Method vs Churn
-![Payment Method vs Churn](images/paymentmethod_vs_churn.png)
+![Payment Method vs Churn](assets/paymentmethod_vs_churn.png)
 
 ### Internet Service vs Churn
-![Internet Service vs Churn](images/internetservice_vs_churn.png)
+![Internet Service vs Churn](assets/internetservice_vs_churn.png)
 
 ### Paperless Billing vs Churn
-![Paperless Billing vs Churn](images/paperlessbilling_vs_churn.png)
+![Paperless Billing vs Churn](assets/paperlessbilling_vs_churn.png)
 
 ---
 
